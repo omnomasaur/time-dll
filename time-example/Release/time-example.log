@@ -1,11 +1,11 @@
-﻿Build started 3/29/2012 09:27:46 PM.
-     1>Project "L:\documents\programming\school\Console Programming\dll\time-dll\time-example\time-example.vcxproj" on node 3 (build target(s)).
+﻿Build started 3/30/2012 01:28:16 AM.
+     1>Project "L:\documents\programming\repositories\time-api\time-dll\time-example\time-example.vcxproj" on node 3 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Release\time-example.unsuccessfulbuild" because "AlwaysCreate" was specified.
        GenerateTargetFrameworkMonikerAttribute:
        Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
        ClCompile:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\Documents\Documents\School\Spring 2012\Console Programming\threaded_loading\time-dll\time-dll" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /EHa /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"L:\documents\programming\school\Console Programming\dll\time-dll\Release\time-dll.dll" /analyze- /errorReport:prompt "time-example.cpp" /clr:nostdlib 
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\Documents\Documents\School\Spring 2012\Console Programming\threaded_loading\time-dll\time-dll" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /EHa /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"L:\documents\programming\repositories\time-api\time-dll\Release\time-dll.dll" /analyze- /errorReport:prompt "time-example.cpp" /clr:nostdlib 
          time-example.cpp
      1>time-example.cpp(26): warning C4244: '=' : conversion from 'double' to 'LONG', possible loss of data
      1>time-example.cpp(27): warning C4244: '=' : conversion from 'double' to 'LONG', possible loss of data
@@ -15,18 +15,18 @@
      1>time-example.cpp(118): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
          All outputs are up-to-date.
        Link:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"L:\documents\programming\school\Console Programming\dll\time-dll\Release\time-example.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\time-example.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"L:\documents\programming\school\Console Programming\dll\time-dll\Release\time-example.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Release\stdafx.obj
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"L:\documents\programming\repositories\time-api\time-dll\Release\time-example.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\time-example.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"L:\documents\programming\repositories\time-api\time-dll\Release\time-example.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Release\stdafx.obj
          "Release\time-example.obj"
          "Release\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
          LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
-         time-example.vcxproj -> L:\documents\programming\school\Console Programming\dll\time-dll\Release\time-example.exe
+         time-example.vcxproj -> L:\documents\programming\repositories\time-api\time-dll\Release\time-example.exe
        Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"L:\documents\programming\school\Console Programming\dll\time-dll\Release\time-example.exe;#1" /manifest "Release\time-example.exe.intermediate.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"L:\documents\programming\repositories\time-api\time-dll\Release\time-example.exe;#1" /manifest "Release\time-example.exe.intermediate.manifest"
        FinalizeBuildStatus:
          Deleting file "Release\time-example.unsuccessfulbuild".
          Touching "Release\time-example.lastbuildstate".
-     1>Done Building Project "L:\documents\programming\school\Console Programming\dll\time-dll\time-example\time-example.vcxproj" (build target(s)).
+     1>Done Building Project "L:\documents\programming\repositories\time-api\time-dll\time-example\time-example.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.40
+Time Elapsed 00:00:01.64

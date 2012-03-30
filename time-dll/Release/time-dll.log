@@ -1,32 +1,25 @@
-﻿Build started 3/29/2012 09:27:45 PM.
-     1>Project "L:\documents\programming\school\Console Programming\dll\time-dll\time-dll\time-dll.vcxproj" on node 2 (build target(s)).
+﻿Build started 3/30/2012 01:28:16 AM.
+     1>Project "L:\documents\programming\repositories\time-api\time-dll\time-dll\time-dll.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Release\time-dll.unsuccessfulbuild" because "AlwaysCreate" was specified.
        GenerateTargetFrameworkMonikerAttribute:
        Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
        ClCompile:
          All outputs are up-to-date.
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\time-dll.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt "time-dll.cpp" /clr:nostdlib 
-         time-dll.cpp
-     1>l:\documents\programming\school\console programming\dll\time-dll\time-dll\time-dll.h(57): warning C4244: 'argument' : conversion from 'wchar_t' to 'char', possible loss of data
-     1>l:\documents\programming\school\console programming\dll\time-dll\time-dll\time-dll.h(68): warning C4018: '<' : signed/unsigned mismatch
+         All outputs are up-to-date.
          All outputs are up-to-date.
        ResourceCompile:
          All outputs are up-to-date.
        Link:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"L:\documents\programming\school\Console Programming\dll\time-dll\Release\time-dll.dll" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:"Release\time-dll.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"L:\documents\programming\school\Console Programming\dll\time-dll\Release\time-dll.pdb" /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /DLL Release\app.res
-         Release\AssemblyInfo.obj
-         Release\Stdafx.obj
-         "Release\time-dll.obj"
-         "Release\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
-         time-dll.vcxproj -> L:\documents\programming\school\Console Programming\dll\time-dll\Release\time-dll.dll
-       Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"L:\documents\programming\school\Console Programming\dll\time-dll\Release\time-dll.dll;#2" /manifest "Release\time-dll.dll.intermediate.manifest"
+         All outputs are up-to-date.
+         time-dll.vcxproj -> L:\documents\programming\repositories\time-api\time-dll\Release\time-dll.dll
+       MetaGen:
+       Skipping target "MetaGen" because all output files are up-to-date with respect to the input files.
        FinalizeBuildStatus:
          Deleting file "Release\time-dll.unsuccessfulbuild".
          Touching "Release\time-dll.lastbuildstate".
-     1>Done Building Project "L:\documents\programming\school\Console Programming\dll\time-dll\time-dll\time-dll.vcxproj" (build target(s)).
+     1>Done Building Project "L:\documents\programming\repositories\time-api\time-dll\time-dll\time-dll.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.41
+Time Elapsed 00:00:00.07
